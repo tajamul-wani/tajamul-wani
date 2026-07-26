@@ -1,72 +1,90 @@
-# Tajamul Wani
+# Tajamul Wani - Marketing Automation Engineer
 
-### Marketing Operations Engineer | AI Product Builder
+I build automation-first marketing systems by combining CRM architecture, lifecycle automation, AI, and software engineering.
 
-I build marketing systems that connect customer acquisition, CRM, automation, and AI-powered products.
-
-My work combines marketing operations, software engineering, and AI to automate business processes, improve campaign performance, and build production-ready internal tools.
+My work focuses on designing scalable marketing infrastructure, integrating business systems, and building AI-powered tools that reduce manual work and improve operational efficiency.
 
 ---
 
 ## About
 
-I specialize in designing and implementing end-to-end marketing systems that reduce manual work and improve operational efficiency. My experience spans CRM architecture, marketing automation, outbound prospecting, AI-assisted product development, and production deployments.
+I'm a Marketing Automation Engineer with experience across CRM platforms, automation workflows, API integrations, and AI-assisted product development.
 
-I enjoy solving business problems with automation—whether that's optimizing a sales pipeline, launching an AI-powered internal tool, or building a seamless customer journey from lead capture to retention.
+I enjoy building systems that connect marketing, sales, and engineering—from lead capture and customer journeys to internal tools and production deployments.
 
 ---
 
 ## Tech Stack
 
-**Marketing Operations**
+### Marketing Automation & CRM
 
-GoHighLevel • HubSpot • Salesforce • ClickFunnels • Kajabi • LearnWorlds • Unbounce
+<p>
+  <img src="https://img.shields.io/badge/HubSpot-FF7A59?style=for-the-badge&logo=hubspot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Salesforce-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white" />
+  <img src="https://img.shields.io/badge/GoHighLevel-1C1C1C?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/ClickFunnels-E74C3C?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Kajabi-14C38E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/LearnWorlds-5B5FC7?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Unbounce-4E6CFB?style=for-the-badge" />
+</p>
 
-**Automation & Integrations**
+### Automation & Integrations
 
-Zapier • APIs • Webhooks • Lifecycle Automation
+<p>
+  <img src="https://img.shields.io/badge/Zapier-FF4F00?style=for-the-badge&logo=zapier&logoColor=white" />
+  <img src="https://img.shields.io/badge/Make-6D5EF5?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Webhooks-24292E?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/REST_API-0052CC?style=for-the-badge" />
+</p>
 
-**Prospecting & Analytics**
+### Prospecting
 
-Apollo • Snov.io • ICP Research • Campaign Analysis • Lead Segmentation
+<p>
+  <img src="https://img.shields.io/badge/Apollo-4F46E5?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Snov.io-6C63FF?style=for-the-badge" />
+</p>
 
-**Development**
+### Development
 
-JavaScript • React • HTML • CSS
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+</p>
 
-**Infrastructure**
+### Infrastructure
 
-Docker • Railway • Supabase • Firebase
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+</p>
 
-**AI**
+### AI
 
-Claude Code • OpenAI
+<p>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Claude_Code-000000?style=for-the-badge" />
+</p>
 
 ---
 
-## What I Build
-
-- CRM architecture and pipeline design
-- Marketing automation and lifecycle workflows
-- Lead qualification and segmentation systems
-- Outbound prospecting workflows
-- AI-assisted internal products
-- API integrations and business automation
-- Production-ready web applications
-
----
-
-## Featured Projects
+## Featured Project
 
 ### FormPing
 
-A website monitoring and QA platform that automatically detects contact forms, tests submissions, monitors SEO and content changes, and sends Slack alerts.
+An AI-assisted website monitoring platform that automatically detects contact forms, validates submissions, monitors SEO and content changes, and delivers Slack notifications.
 
-**Role**
+**Responsibilities**
 
-Core contributor responsible for product direction, feature implementation, deployment, and infrastructure.
+- Product direction
+- AI-assisted feature development
+- Infrastructure & deployment
+- Quality assurance automation
 
-**Stack**
+**Tech Stack**
 
 Docker • Railway • Supabase • Claude Code
 
@@ -76,32 +94,38 @@ https://github.com/waseembashir/FormPing
 
 ---
 
-
-## Currently Exploring
+## Currently Learning
 
 - AI Agents
-- MCP Servers
-- Marketing Engineering
-- Revenue Operations
-- AI Product Development
+- Model Context Protocol (MCP)
+- Advanced Docker
+- Rust
 - System Design
+- Marketing Engineering
+- AI Product Development
 
 ---
 
 ## Connect
 
-**Portfolio**  
-https://tajamul-wani.netlify.app
+<p>
+  <a href="https://tajamul-wani.netlify.app">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=google-chrome&logoColor=white" />
+  </a>
 
-**LinkedIn**  
-https://linkedin.com/in/tajamul-wani
+  <a href="https://linkedin.com/in/tajamul-wani">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
 
-**GitHub**  
-https://github.com/tajamul11
+  <a href="https://github.com/tajamul11">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
 
-**Email**  
-tajamul.270@gmail.com
+  <a href="mailto:tajamul.270@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+</p>
 
 ---
 
-> Building automation-first marketing systems that combine engineering, AI, and operations to create measurable business outcomes.
+> Building automation-first marketing systems that bridge marketing, engineering, and AI.
