@@ -1,16 +1,15 @@
-# Tajamul Wani - Marketing Automation Engineer
+# Tajamul Wani - Marketing Operations Engineer
 
-I build automation-first marketing systems by combining CRM architecture, lifecycle automation, AI, and software engineering.
+I architect the systems that make marketing work - CRM pipelines, automated funnels, custom-coded landing pages, and email infrastructure across GoHighLevel, HubSpot, ClickFunnels, and more.
 
-My work focuses on designing scalable marketing infrastructure, integrating business systems, and building AI-powered tools that reduce manual work and improve operational efficiency.
+Recently extended into AI-directed product development, owning deployment and QA for live tools I build by directing Claude Code.
 
 ---
 
 ## About
 
-I'm a Marketing Automation Engineer with experience across CRM platforms, automation workflows, API integrations, and AI-assisted product development.
-
-I enjoy building systems that connect marketing, sales, and engineering—from lead capture and customer journeys to internal tools and production deployments.
+I build the full stack of marketing infrastructure: CRM pipelines, automated funnels, outbound campaigns, email sequences, and custom-coded assets across GoHighLevel, HubSpot, ClickFunnels, Kajabi, LearnWorlds, and more.
+I sit at the intersection of strategy and execution — fluent in code when precision demands it, and in no-code platforms when speed does.
 
 ---
 
@@ -127,5 +126,3 @@ https://github.com/waseembashir/FormPing
 </p>
 
 ---
-
-> Building automation-first marketing systems that bridge marketing, engineering, and AI.
