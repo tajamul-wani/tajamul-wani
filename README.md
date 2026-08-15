@@ -93,15 +93,33 @@ https://github.com/waseembashir/FormPing
 
 ---
 
+### LearnTopia
+
+Learntopia is a full-stack e-learning web application that allows students to enrol in topic-specific course tracks, complete structured modules, and test their knowledge with randomized timed quizzes. Progress, scores, and streaks are stored securely in Firestore and visualised on a personal dashboard and a public leaderboard.
+
+**Responsibilities**
+
+- AI-assisted feature development
+- Quality assurance automation
+- Security and Best Practices
+
+**Tech Stack and Tools**
+
+Firebase • Sentry • Google AUth • Google Antigravity • Claude Code • Google Captcha
+
+**Repository**
+
+https://github.com/TAJAMUL11/Learntopia
+
+---
+
 ## Currently Learning
 
 - AI Agents
 - Model Context Protocol (MCP)
-- Advanced Docker
-- Rust
 - System Design
-- Marketing Engineering
-- AI Product Development
+- RAG and LLM
+- Clay
 
 ---
 
