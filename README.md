@@ -1,4 +1,4 @@
-# Tajamul Wani - Marketing Operations Engineer
+# Tajamul Wani - GTM Engineer
 
 I architect the systems that make marketing work - CRM pipelines, automated funnels, custom-coded landing pages, and email infrastructure across GoHighLevel, HubSpot, ClickFunnels, and more.
 
@@ -19,7 +19,6 @@ I sit at the intersection of strategy and execution — fluent in code when prec
 
 <p>
   <img src="https://img.shields.io/badge/HubSpot-FF7A59?style=for-the-badge&logo=hubspot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Salesforce-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white" />
   <img src="https://img.shields.io/badge/GoHighLevel-1C1C1C?style=for-the-badge" />
   <img src="https://img.shields.io/badge/ClickFunnels-E74C3C?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Kajabi-14C38E?style=for-the-badge" />
@@ -120,6 +119,8 @@ https://github.com/TAJAMUL11/Learntopia
 - System Design
 - RAG and LLM
 - Clay
+- Python
+- SQL
 
 ---
 
@@ -132,10 +133,6 @@ https://github.com/TAJAMUL11/Learntopia
 
   <a href="https://linkedin.com/in/tajamul-wani">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-
-  <a href="https://github.com/tajamul11">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 
   <a href="mailto:tajamul.270@gmail.com">
