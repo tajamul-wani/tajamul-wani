@@ -69,8 +69,6 @@ I use Playwright for two very different jobs.
 
 **As a test harness.** End-to-end coverage for a live application — automating the flows I used to verify by hand every release: authentication, enrolment, module progression, quiz submission and scoring, dashboard state. Manual testing is fine until there's a deadline, at which point it quietly stops happening. The suite doesn't have that problem.
 
-Paired with **Sentry** in production, so anything the suite misses surfaces as an alert rather than a user complaint.
-
 ---
 
 ## Projects
@@ -119,6 +117,7 @@ Built because "don't commit secrets" is advice, and a pre-commit hook is a contr
 ## Stack
 
 **GTM & CRM**
+---
 <br/>
 <img src="https://img.shields.io/badge/HubSpot-FF7A59?style=flat-square&logo=hubspot&logoColor=white" />
 <img src="https://img.shields.io/badge/GoHighLevel-1C1C1C?style=flat-square" />
@@ -128,6 +127,7 @@ Built because "don't commit secrets" is advice, and a pre-commit hook is a contr
 <img src="https://img.shields.io/badge/LearnWorlds-5B5FC7?style=flat-square" />
 
 **Automation & data movement**
+---
 <br/>
 <img src="https://img.shields.io/badge/Zapier-FF4F00?style=flat-square&logo=zapier&logoColor=white" />
 <img src="https://img.shields.io/badge/Make-6D5EF5?style=flat-square" />
@@ -137,6 +137,7 @@ Built because "don't commit secrets" is advice, and a pre-commit hook is a contr
 <img src="https://img.shields.io/badge/Snov.io-6C63FF?style=flat-square" />
 
 **Codebases I work in**
+---
 <br/>
 <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
@@ -146,6 +147,7 @@ Built because "don't commit secrets" is advice, and a pre-commit hook is a contr
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
 
 **Ship & run**
+---
 <br/>
 <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
 <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
@@ -157,6 +159,7 @@ Built because "don't commit secrets" is advice, and a pre-commit hook is a contr
 <img src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white" />
 
 **AI**
+---
 <br/>
 <img src="https://img.shields.io/badge/Claude_Code-000000?style=flat-square&logo=anthropic&logoColor=white" />
 <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" />
