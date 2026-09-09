@@ -1,12 +1,12 @@
 <h1 align="center">Tajamul Wani</h1>
 
 <p align="center">
-  <b>GTM Infrastructure Engineer</b> &nbsp;·&nbsp; Marketing Operations &nbsp;·&nbsp; API Integrations & Data Flow &nbsp;·&nbsp; Full-Stack Development with Claude Code
+  <b>GTM Infrastructure Engineer</b> &nbsp;·&nbsp; Marketing Operations &nbsp;·&nbsp; Full-Stack Development with Claude Code
 </p>
 
 <p align="center">
-  <sub>I build the systems and tools that power go-to-market operations.<br/>
-  Data pipelines, API orchestration, debugging & monitoring infrastructure, and the software that makes marketing systems talk to each other.</sub>
+  <p>I build the systems and tools that power go-to-market operations.<br/>
+  Data pipelines, API orchestration, debugging & monitoring infrastructure, and the software that makes marketing systems talk to each other.</p>
 </p>
 
 <p align="center">
@@ -100,7 +100,7 @@ Built with security and observability in mind: Google Auth, Firestore security r
 
 The infrastructure that turns a course platform into a system we can trust and debug.
 
-[**→ Repository**](https://github.com/TAJAMUL11/Learntopia) · [**→ Live**](https://learntopia.vercel.app)
+[**→ Repository**](https://github.com/tajamul-wani/Learntopia) · [**→ Live**](https://learntopia-react.web.app/)
 
 <br/>
 
@@ -199,7 +199,6 @@ I use specialized tools to understand what's actually happening in marketing sys
   <img src="https://img.shields.io/badge/REST_APIs-0052CC?style=flat-square" />
   <img src="https://img.shields.io/badge/Webhooks-24292E?style=flat-square" />
   <img src="https://img.shields.io/badge/Data_Pipelines-4B8BBE?style=flat-square" />
-  <img src="https://img.shields.io/badge/Event_Streaming-FF6B6B?style=flat-square" />
   <img src="https://img.shields.io/badge/API_Debugging-4A4A4A?style=flat-square" />
 </p>
 
@@ -222,11 +221,9 @@ I use specialized tools to understand what's actually happening in marketing sys
 <p>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white" />
   <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
-  <img src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white" />
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" />
 </p>
 
