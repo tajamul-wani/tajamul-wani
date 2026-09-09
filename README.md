@@ -1,12 +1,12 @@
 <h1 align="center">Tajamul Wani</h1>
 
 <p align="center">
-  <b>GTM Engineer</b> &nbsp;·&nbsp; Marketing Operations &nbsp;·&nbsp; AI-Directed Product Builder
+  <b>GTM Infrastructure Engineer</b> &nbsp;·&nbsp; Marketing Operations &nbsp;·&nbsp; API Integrations & Data Flow &nbsp;·&nbsp; Full-Stack Development with Claude Code
 </p>
 
 <p align="center">
-  <sub>I design the systems that turn marketing intent into pipeline — and the software underneath them.<br/>
-  Architecture, development, testing, deployment. All of it, end to end.</sub>
+  <sub>I build the systems and tools that power go-to-market operations.<br/>
+  Data pipelines, API orchestration, debugging & monitoring infrastructure, and the software that makes marketing systems talk to each other.</sub>
 </p>
 
 <p align="center">
@@ -21,39 +21,120 @@
 
 ---
 
-## How I build
+## What I do right now
 
-I read code. I don't write it by hand.
+**GTM infrastructure** — I build the systems that power marketing operations. Not just configuring CRM pipelines, but designing data flows, building APIs that connect disparate systems, and creating the infrastructure that turns marketing intent into predictable pipeline.
 
-What I do instead is everything else, and I do it alone. I define the architecture, specify behaviour precisely enough that it can be implemented, direct Claude Code through the build, review what comes back, write the test coverage, provision the server, and ship it. There is no team behind the projects on this page. One person owns each line of the pipeline, and that person is accountable when any part of it breaks.
+**API orchestration & debugging** — I own the plumbing: REST APIs, webhooks, data transformations, and the monitoring that catches when systems fail silently. I build tools to inspect API responses, trace data flow, and debug why a lead didn't sync when it should have.
 
-That constraint turns out to matter less than people expect, and it forces something useful: if I can't describe a system clearly, it doesn't get built. So my time goes into data models, integration boundaries, failure modes, and what happens when a third-party API returns something unexpected. Implementation is the cheap part now. Architecture never was.
+**Full-stack tooling with Claude Code** — I architect systems that Claude builds. I specify behaviour precisely, direct the development, review every component, and ship infrastructure that operates itself. No hand-written code — just tight specs and AI-directed builds.
 
-<br/>
-
-| Layer | What I own |
-|---|---|
-| **Architecture** | Data model, system boundaries, integration design, what belongs in code vs. no-code |
-| **Direction** | Specifying behaviour, decomposing work, directing Claude Code, reviewing output |
-| **Deploy** | Linux servers, SSH, Git-based deploy workflow, environments and secrets |
-| **Verify** | Playwright suites, CI checks, Sentry monitoring, manual regression passes |
-| **Operate** | Reading logs, tracing failures, fixing production, iterating on what actually broke |
+**Operations & observability** — Linux servers, production deployment, log analysis, error tracking with Sentry, and the automation that keeps systems synchronized. I read logs, trace failures, and fix broken infrastructure.
 
 <br/>
 
 ---
 
-## Marketing infrastructure
+## How I build GTM infrastructure
 
-The GTM half of the job, and still the majority of it.
+I design systems that solve real problems in marketing operations: data moving between platforms without loss, APIs that behave predictably, and tools that let us see what's actually happening.
 
-**CRM & pipeline architecture** — Pipelines, lifecycle stages, custom properties, and routing logic in GoHighLevel and HubSpot, designed so reporting reflects what actually happened rather than what someone hoped would.
+The constraint is intentional: I don't write code by hand. I architect, specify, direct Claude Code, review output, and operate it. This forces clarity — if I can't describe a system architecture clearly enough for an AI to build it, it's not ready to ship.
 
-**Funnels & landing pages** — Full builds across ClickFunnels, Unbounce, Kajabi, and LearnWorlds, with custom components dropped in wherever the builder hits its ceiling.
+The payoff: infrastructure that's well-understood, maintainable, and built with the full complexity of the problem baked in from the start.
 
-**Reusable component library** — Instead of rebuilding the same calculator, conditional form, or comparison table for every client, I maintain portable HTML/CSS/JS components that drop into Unbounce, ClickFunnels, GHL, Kajabi, and Elementor with minimal rework. Spec once, ship across accounts.
+<br/>
 
-**Automation & outbound** — Prospecting through Apollo and Snov.io, sequence design, and the plumbing that keeps systems in sync: Zapier, Make, raw webhooks, REST APIs.
+| Layer | What I own |
+|---|---|
+| **Architecture** | Data model, system boundaries, API design, integration patterns, what belongs in code vs. no-code |
+| **Specification** | Behaviour definition, error handling, edge cases, debugging hooks, logging strategy |
+| **Direction** | Decomposing work, directing Claude Code, reviewing implementation, catching architectural issues early |
+| **Operations** | Linux servers, deployment pipelines, environment management, production monitoring |
+| **Debugging** | Log analysis, API tracing, data flow inspection, failure diagnosis and fix iteration |
+
+<br/>
+
+---
+
+## Infrastructure projects built with Claude Code
+
+<br/>
+
+### 🔍 FormPing
+
+**API monitoring & form validation infrastructure**
+
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
+</p>
+
+A system that monitors the entire GTM funnel by crawling client sites with a headless browser, detecting forms, validating that submissions actually reach their destination, and tracking API responses. Integrated with Zapier workflows to alert when leads don't sync or forms break silently.
+
+Solves the core GTM problem: campaigns run, traffic converts, leads disappear. FormPing catches this in minutes instead of at month-end when revenue is already lost.
+
+Built end to end: Playwright crawlers, form detection, API validation, real-time dashboards, webhook integrations, and production infrastructure.
+
+[**→ Repository**](https://github.com/waseembashir/FormPing)
+
+<br/>
+
+### 🎓 Learntopia
+
+**Full-stack education infrastructure with data persistence**
+
+<p>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" />
+  <img src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white" />
+</p>
+
+Infrastructure for a complete learning ecosystem: enrolment workflows, course progression tracking, assessment delivery, and score persistence in Firestore. Every interaction is captured, validated, and queryable.
+
+Built with security and observability in mind: Google Auth, Firestore security rules, error tracking, automated end-to-end testing, and deployment pipelines.
+
+The infrastructure that turns a course platform into a system we can trust and debug.
+
+[**→ Repository**](https://github.com/TAJAMUL11/Learntopia) · [**→ Live**](https://learntopia.vercel.app)
+
+<br/>
+
+### 🛡️ Secret Sentinel
+
+**Local secret detection infrastructure for Git**
+
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git_Hooks-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
+</p>
+
+Infrastructure that enforces secrets security at the Git layer. A CLI tool that catches hardcoded credentials before they commit, combining pattern matching with entropy-based detection. Installs as a pre-commit hook and surfaces findings in CI/CD pipelines.
+
+Deliberately offline: no cloud API, no external dependencies, nothing leaves the machine. The philosophy: security controls live in code, not advice.
+
+[**→ Repository**](https://github.com/tajamul-wani/secret-sentinel)
+
+<br/>
+
+---
+
+## GTM operations infrastructure
+
+The core of what I build.
+
+**Data pipelines & synchronization** — Moving leads, accounts, and events between GoHighLevel, HubSpot, Zapier, Make, and dozens of third-party tools without data loss or duplication. Building the routing logic that ensures data goes where it belongs.
+
+**API debugging & inspection tools** — Building infrastructure to see what's actually happening: log aggregation, API response inspection, webhook delivery verification, and the observability that catches silent failures.
+
+**Integration architecture** — Designing how systems talk to each other: REST APIs, webhooks, data transformation layers, error handling strategies, and retry logic. Everything built so failures are visible and recoverable.
+
+**Automation infrastructure** — Workflows that keep systems in sync automatically: data reconciliation, lead enrichment pipelines, sequence delivery, and the monitoring that alerts when something breaks.
 
 <br/>
 
@@ -61,15 +142,13 @@ The GTM half of the job, and still the majority of it.
 
 ## Shipping & operations
 
-The part I added most recently, and the part that changed how I think about everything else.
-
-I provision and run my own Linux server rather than treating deployment as someone else's problem. The loop: SSH into the box, set up the project and its runtime, push local to GitHub, pull to the server, build, serve. Then the real work — reading logs when a service won't start, tracing a failed request back to a bad environment variable, telling a build failure apart from a runtime one, and fixing it on the machine instead of guessing from a dashboard.
+I provision and operate Linux servers, manage deployments through Git, and run production systems myself.
 
 ```
-local → GitHub → ssh → pull → build → serve → read logs → fix → repeat
+local → GitHub → ssh → pull → build → serve → read logs → debug → fix → repeat
 ```
 
-Doing this by hand taught me more about how deployed applications behave than any managed platform would have. It also means that when infrastructure misbehaves, I can open a terminal instead of a support ticket.
+This isn't just deployment convenience. Operating systems myself taught me how real applications behave: how they fail, how to trace failures from logs, how to fix them without waiting for a vendor. It's the discipline that makes me better at designing infrastructure.
 
 <p>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
@@ -83,84 +162,15 @@ Doing this by hand taught me more about how deployed applications behave than an
 
 ---
 
-## Browser automation
+## API & data inspection
 
-I use Playwright for two very different jobs.
+I use specialized tools to understand what's actually happening in marketing systems.
 
-**As a data collection engine.** Driving a headless browser across client sites to detect page structure, capture screenshots, and extract the state of a page for comparison over time. This is the core of how FormPing knows a site changed.
+**Webhook & API logging** — Capturing every inbound webhook, API call, and response so failures are visible. Building dashboards that show data flow in real time.
 
-**As a test harness.** End-to-end coverage for a live application — automating the flows I used to verify by hand every release: authentication, enrolment, module progression, quiz submission and scoring, dashboard state. Manual testing is fine until there's a deadline, at which point it quietly stops happening. The suite doesn't have that problem.
+**Form & lead tracking** — Playwright-based crawlers that inspect forms, validate submissions, track API calls from client sites, and catch when leads go silent.
 
-<br/>
-
----
-
-## Projects
-
-<br/>
-
-### 🔍 FormPing
-
-**Website monitoring platform**
-
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
-</p>
-
-A monitoring service that crawls client sites with a headless browser, automatically detects contact forms, validates that submissions actually go through, and flags SEO and content changes — alerting to Slack.
-
-Broken forms are the most expensive silent failure in marketing: the campaign runs, traffic converts, and nothing arrives. FormPing catches that in minutes instead of at the end of the month.
-
-**Owned end to end** — product direction, architecture, AI-directed development, containerization, deployment, QA automation.
-
-[**→ Repository**](https://github.com/waseembashir/FormPing)
-
-<br/>
-
-### 🎓 Learntopia
-
-**Full-stack e-learning application**
-
-<p>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" />
-  <img src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white" />
-</p>
-
-Students enrol in topic-specific course tracks, work through structured modules, and test themselves with randomized, timed quizzes. Progress, scores, and streaks persist in Firestore and surface on a personal dashboard and a public leaderboard.
-
-Built end to end: data model, Google Auth, Firestore security rules, Captcha, Sentry error monitoring, and a Playwright E2E suite covering the full student journey.
-
-**Owned end to end** — architecture, AI-directed development, security hardening, test automation, deployment.
-
-[**→ Repository**](https://github.com/TAJAMUL11/Learntopia)
-
-<br/>
-
-### 🛡️ Secret Sentinel
-
-**Local secret scanner for Git repositories**
-
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git_Hooks-F05032?style=flat-square&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" />
-</p>
-
-A CLI tool that catches hardcoded credentials before they reach a commit. Combines pattern matching for known key formats with entropy-based detection for everything else, installs as a Git pre-commit hook, and scores each finding by severity — AWS keys and API tokens as CRITICAL, JWTs and generic secret assignments as HIGH, high-entropy strings below that.
-
-Deliberately offline by default: no cloud API, no environment variables, nothing leaves the machine. AI validation via a local Ollama or configured Gemini setup is available but strictly optional. Scan history is kept locally as JSONL so you can pull statistics across runs.
-
-Built because "don't commit secrets" is advice, and a pre-commit hook is a control.
-
-**Owned end to end** — concept, architecture, AI-directed development, packaging, CI.
-
-[**→ Repository**](https://github.com/tajamul-wani/secret-sentinel)
+**Data validation** — Automated checks that ensure leads sync correctly, deduplication logic works, and data integrity is maintained across systems.
 
 <br/>
 
@@ -170,46 +180,44 @@ Built because "don't commit secrets" is advice, and a pre-commit hook is a contr
 
 <br/>
 
-#### GTM & CRM
+#### GTM & Integration Platforms
 
 <p>
   <img src="https://img.shields.io/badge/HubSpot-FF7A59?style=flat-square&logo=hubspot&logoColor=white" />
   <img src="https://img.shields.io/badge/GoHighLevel-1C1C1C?style=flat-square" />
-  <img src="https://img.shields.io/badge/ClickFunnels-E74C3C?style=flat-square" />
-  <img src="https://img.shields.io/badge/Unbounce-4E6CFB?style=flat-square" />
-  <img src="https://img.shields.io/badge/Kajabi-14C38E?style=flat-square" />
-  <img src="https://img.shields.io/badge/LearnWorlds-5B5FC7?style=flat-square" />
-</p>
-
-<br/>
-
-#### Automation & data movement
-
-<p>
   <img src="https://img.shields.io/badge/Zapier-FF4F00?style=flat-square&logo=zapier&logoColor=white" />
   <img src="https://img.shields.io/badge/Make-6D5EF5?style=flat-square" />
-  <img src="https://img.shields.io/badge/REST_APIs-0052CC?style=flat-square" />
-  <img src="https://img.shields.io/badge/Webhooks-24292E?style=flat-square" />
   <img src="https://img.shields.io/badge/Apollo-4F46E5?style=flat-square" />
   <img src="https://img.shields.io/badge/Snov.io-6C63FF?style=flat-square" />
 </p>
 
 <br/>
 
-#### Codebases I work in
+#### API & Data Infrastructure
+
+<p>
+  <img src="https://img.shields.io/badge/REST_APIs-0052CC?style=flat-square" />
+  <img src="https://img.shields.io/badge/Webhooks-24292E?style=flat-square" />
+  <img src="https://img.shields.io/badge/Data_Pipelines-4B8BBE?style=flat-square" />
+  <img src="https://img.shields.io/badge/Event_Streaming-FF6B6B?style=flat-square" />
+  <img src="https://img.shields.io/badge/API_Debugging-4A4A4A?style=flat-square" />
+</p>
+
+<br/>
+
+#### Development & Infrastructure
 
 <p>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" />
   <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
 </p>
 
 <br/>
 
-#### Ship & run
+#### Operations & Observability
 
 <p>
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
@@ -218,13 +226,13 @@ Built because "don't commit secrets" is advice, and a pre-commit hook is a contr
   <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white" />
   <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" />
   <img src="https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white" />
 </p>
 
 <br/>
 
-#### AI
+#### AI-Directed Development
 
 <p>
   <img src="https://img.shields.io/badge/Claude_Code-000000?style=flat-square&logo=anthropic&logoColor=white" />
@@ -252,5 +260,5 @@ Going deeper on the systems layer rather than collecting more platforms.
 ---
 
 <p align="center">
-  <sub>If it involves connecting a marketing system to something it wasn't designed to talk to, I'm interested.</sub>
+  <sub>If it involves building infrastructure that makes marketing systems reliable, observable, and connected — I'm interested.</sub>
 </p>
