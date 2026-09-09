@@ -4,10 +4,8 @@
   <b>GTM Infrastructure Engineer</b> &nbsp;·&nbsp; Marketing Operations &nbsp;·&nbsp; Full-Stack Development with Claude Code
 </p>
 
-<p align="center">
-  <p>I build the systems and tools that power go-to-market operations.<br/>
+  <p align="center">I build the systems and tools that power go-to-market operations.<br/>
   Data pipelines, API orchestration, debugging & monitoring infrastructure, and the software that makes marketing systems talk to each other.</p>
-</p>
 
 <p align="center">
   <a href="https://tajamul-wani.netlify.app"><img src="https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=google-chrome&logoColor=white" /></a>
