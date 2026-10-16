@@ -59,7 +59,7 @@ The payoff: infrastructure that's well-understood, maintainable, and built with 
 
 <br/>
 
-### 🔍 FormPing
+### FormPing
 
 **API monitoring & form validation infrastructure**
 
@@ -81,7 +81,7 @@ Built end to end: Playwright crawlers, form detection, API validation, real-time
 
 <br/>
 
-### 🎓 Learntopia
+### Learntopia
 
 **Full-stack education infrastructure with data persistence**
 
@@ -102,7 +102,7 @@ The infrastructure that turns a course platform into a system we can trust and d
 
 <br/>
 
-### 🛡️ Secret Sentinel
+###  Secret Sentinel
 
 **Local secret detection infrastructure for Git**
 
